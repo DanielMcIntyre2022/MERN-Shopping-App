@@ -2,7 +2,7 @@ import './styleComponents/Navbar.css';
 import { Link } from 'react-router-dom';
 import { FaShoppingCart } from 'react-icons/fa';
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
       <nav className="navbar">
           <div className="nav-logo">
@@ -24,7 +24,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-      <div className='hamburger-menu'>
+      <div className='hamburger-menu' onClick={props.click}>
       <div></div>
         <div></div>
         <div></div>

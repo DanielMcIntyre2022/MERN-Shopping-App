@@ -2,7 +2,7 @@ import './stylePages/CartPage.css';
 
 const CartPage = () => {
   return (
-    <div className='cartpage-container'>CartPage</div>
+    <div className='cartpage-container'>Cart Page</div>
   )
 }
 
