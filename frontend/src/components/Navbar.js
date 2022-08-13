@@ -6,14 +6,16 @@ const Navbar = () => {
   return (
       <nav className="navbar">
           <div className="nav-logo">
-              <h1>Shopping App</h1>
+              <h2>Shopping App</h2>
             </div>
           <ul className="nav-links">
               <li>
-          <Link to="/cart">
+          <Link to="/cart" className='cart-link'>
             <i><FaShoppingCart /></i>
-            Cart
+            <span>
+              Cart
             <span className='cart-logo'>0</span>
+            </span>
                   </Link>
         </li>
         <li>
@@ -24,6 +26,7 @@ const Navbar = () => {
       </ul>
       <div className='hamburger-menu'>
       <div></div>
+        <div></div>
         <div></div>
       </div>
     </nav>
