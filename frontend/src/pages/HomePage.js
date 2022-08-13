@@ -7,6 +7,11 @@ const HomePage = () => {
       <h2 className='home-page-title'>Latest Products</h2>
       <div className='home-page-products'>
         <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
       </div>
     </div>
   )
