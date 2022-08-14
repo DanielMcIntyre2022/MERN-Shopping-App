@@ -48,3 +48,24 @@
     opacity: 0.9;
 }
 
+/* media queries */
+
+@media(max-width: 1320px) {
+    .cartpage-container {
+        max-width: 900px;
+    }
+}
+
+@media(max-width: 960px) {
+    .cartpage-container {
+        max-width: 800px;
+        flex-direction: column;
+    }
+    .cartpage-left {
+        margin: 0;
+    }
+
+    .cartpage-right {
+        margin: 1rem;
+    }
+}
