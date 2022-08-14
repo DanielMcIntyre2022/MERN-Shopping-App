@@ -6,7 +6,6 @@ const CartPage = () => {
     <div className='cartpage-container'>
       <div className='cartpage-left'>
         <h2>Shopping Cart</h2>
-
         <CartItem />
       </div>
       <div className='cartpage-right'>

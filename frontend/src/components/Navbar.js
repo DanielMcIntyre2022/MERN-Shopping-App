@@ -5,8 +5,10 @@ import { FaShoppingCart } from 'react-icons/fa';
 const Navbar = (props) => {
   return (
       <nav className="navbar">
-          <div className="nav-logo">
-              <h2>Shopping App</h2>
+      <div className="nav-logo">
+        <Link to='/'>
+          <h2>Shopping App</h2>
+        </Link>
             </div>
           <ul className="nav-links">
               <li>
